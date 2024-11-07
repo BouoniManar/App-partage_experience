@@ -1,1 +1,48 @@
-Description du projet : Nom du projet : Forum de Partage d'Expériences de Produits  Technologies utilisées :  Backend : Django Rest Framework avec PostgreSQL pour gérer les utilisateurs, les produits, et les expériences partagées. Frontend Web : ReactJS pour créer une interface utilisateur dynamique et interactive pour l'application web. Frontend Mobile : Flutter pour développer l'application mobile, permettant aux utilisateurs d'interagir avec le forum de manière fluide sur les appareils mobiles. Description du projet :  Ce projet consiste en un forum de partage d'expérience des produits, où les utilisateurs peuvent partager leurs avis sur différents produits, se connecter, et interagir avec d'autres membres de la communauté. Il comprend les fonctionnalités suivantes :  Backend (Django Rest Framework) :  Gestion des utilisateurs : Système d'authentification via email et mot de passe, gestion des rôles (utilisateur, administrateur). Gestion des produits : API pour ajouter, modifier, supprimer des produits avec des informations détaillées (nom, description, prix, etc.). Partage d'expérience : Permet aux utilisateurs de partager leurs avis sur les produits, avec un système de notation et de commentaires. Frontend Web (ReactJS) :  Page d'accueil dynamique : Présentation des produits et des expériences partagées par les utilisateurs. Formulaires d'inscription et de connexion : Permet aux utilisateurs de s'inscrire et se connecter pour partager leurs avis. Affichage des expériences et des produits : Les utilisateurs peuvent consulter les produits, voir les avis d'autres utilisateurs et ajouter les leurs. Frontend Mobile (Flutter) :  Pages d'inscription et de connexion : Interface utilisateur simple et claire pour s'inscrire et se connecter. Page d'accueil : Liste des produits avec les expériences partagées, possibilité de filtrer par catégorie de produit. Détails des produits : Vue détaillée d'un produit avec les avis des utilisateurs et possibilité de laisser un commentaire. Fonctionnalités principales :  Système d'authentification (Inscription et Connexion) pour les utilisateurs sur mobile et web. Partage d'expérience : Les utilisateurs peuvent laisser des commentaires, des notes, et partager leurs opinions sur différents produits. Vue produits : Affichage détaillé des produits avec leurs caractéristiques et les avis des utilisateurs. Notifications : Alertes pour informer les utilisateurs des nouvelles expériences partagées ou des produits populaires. Objectifs du projet :  Créer un forum de partage d'expérience pour les produits. Développer une application web complète avec ReactJS pour l'interface utilisateur. Créer une application mobile fluide et responsive avec Flutter pour permettre aux utilisateurs de partager et consulter des expériences sur leurs appareils mobiles. Mettre en place une API REST avec Django pour gérer l'ensemble des données du forum et de la gestion des produits. Architecture du projet :  Django Rest Framework pour le backend (API). ReactJS pour le frontend web. Flutter pour le frontend mobile. Conclusion : Ce projet vise à offrir aux utilisateurs un espace où ils peuvent partager leurs expériences, donner des avis sur des produits qu'ils ont utilisés, et interagir avec d'autres membres de la communauté, le tout dans une application moderne et fluide, à la fois sur le web et sur mobile.
+# Forum de Partage d'Expériences de Produits
+
+## Description du projet
+
+Le projet **Forum de Partage d'Expériences de Produits** est une application qui permet aux utilisateurs de partager leurs expériences et avis sur différents produits. Ce forum est accessible à la fois via une application web et une application mobile. L'application web est construite avec **ReactJS** tandis que l'application mobile est construite avec **Flutter**. Le backend est géré par **Django Rest Framework** avec une base de données PostgreSQL.
+
+### Fonctionnalités principales
+- **Authentification des utilisateurs** : Système d'inscription et de connexion via email et mot de passe.
+- **Partage d'expérience** : Les utilisateurs peuvent publier leurs avis sur différents produits.
+- **Gestion des produits** : Les utilisateurs peuvent consulter les produits et leurs caractéristiques, ainsi que voir les avis d'autres utilisateurs.
+- **Interface dynamique** : L'application est construite avec une interface responsive et fluide, aussi bien sur mobile (Flutter) que sur web (ReactJS).
+- **Système de notifications** : Les utilisateurs sont alertés des nouvelles expériences partagées ou des produits populaires.
+
+## Technologies utilisées
+
+- **Backend** : 
+  - Django Rest Framework
+  - PostgreSQL
+- **Frontend Web** : 
+  - ReactJS
+  - HTML, CSS, JavaScript
+- **Frontend Mobile** : 
+  - Flutter
+- **Authentification** :
+  - JWT (JSON Web Tokens) ou toute autre solution d'authentification basée sur l'API Django.
+  
+## Prérequis
+
+### Pour le backend (Django Rest Framework) :
+- Python 3.15
+- PostgreSQL
+- Django et Django Rest Framework
+
+### Pour le frontend web (ReactJS) :
+- Node.js
+- npm 
+
+### Pour le frontend mobile (Flutter) :
+- Flutter SDK
+- Android Studio ou Xcode pour le développement mobile
+
+## Installation
+
+### Backend (Django Rest Framework)
+
+1. Clonez le dépôt  :
+   ```bash
+   git clone [https://github.com/votre-utilisateur/forum-partage-experience-backen](https://github.com/BouoniManar/App-partage_experience.git
